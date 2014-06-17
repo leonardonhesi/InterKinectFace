@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><title>Apresentação</title>
+
+<link href="cube.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jmpress.js"></script>
+<script type="text/javascript" src="web-sockets.js"></script>
+</head>
+
+<body>
+<h2 align="center">InterKinectFace</h2>
+<h3 align="center">Status: <label  id="status">None</label></h3>
+
+<div align="left"><canvas id="canvas" width="440" height="280"></canvas></div>
+
+<div id="cube">
+<div class="step" id="front" data-z="-1000" data-up="#top" data-down="#bottom"> 
+<canvas width="640" height="480"  id="canvas1"></canvas></div>
+<div class="step" id="back" data-rotate-y="180" data-z="-2000" data-up="#top" data-down="#bottom">
+<canvas width="640" height="480"  id="canvas3"></canvas></div>
+
+<div class="step" id="right" data-rotate-y="90" data-z="-1500" data-x="3000" data-up="#top" data-down="#bottom"> 
+<canvas width="640" height="480"  id="canvas2"></canvas></div> 
+<div class="step" id="left" data-rotate-y="270" data-z="-1500" data-x="-3000" data-up="#top" data-down="#bottom">
+<canvas width="640" height="480"  id="canvas4"></canvas></div> 
+
+<div class="step" id="top" data-rotate-x="90" data-z="-1500" data-y="-3000" data-up="#back" data-down="#front"> 
+<canvas width="640" height="480"  id="canvas5"></canvas></div> 
+<div class="step" id="bottom" data-rotate-x="270" data-z="-1500" data-y="3000" data-up="#front" data-down="#back"> 
+<canvas width="640" height="480"  id="canvas6"></canvas></div> 
+</div>
+
+<script type="text/javascript">
+$(function() {
+var cube = $('#cube');
+$.jmpress("initStep", function(step, eventData) {
+eventData.stepData.up = eventData.data.up;
+eventData.stepData.down = eventData.data.down;
+});
+
+$.jmpress("register", "up", function() {
+var stepData = cube.jmpress("active").data("stepData");
+if(stepData.up)
+cube.jmpress("select", stepData.up);
+});
+
+$.jmpress("register", "down", function() {
+var stepData = cube.jmpress("active").data("stepData");
+if(stepData.down)
+cube.jmpress("select", stepData.down);
+});
+
+cube.jmpress({
+viewPort: {
+width: 1000,
+height: 1000
+},
+
+keyboard: {
+keys: {
+38: "up",
+40: "down"
+}
+}
+});
+cube.jmpress("route", ["#left", "#front"]);
+cube.jmpress("route", ["#top", "#right"], true);
+cube.jmpress("route", ["#top", "#left"], true, true);
+cube.jmpress("route", ["#bottom", "#left"], true, true);
+cube.jmpress("route", ["#bottom", "#right"], true);
+});
+</script>
+</body></html>
