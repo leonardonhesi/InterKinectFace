@@ -20,3 +20,15 @@ C:\Users\leonardo\Desktop\projInterKinectFace\Microsoft.Kinect.Toolkit.Controls\
 C:\Users\leonardo\Desktop\projInterKinectFace\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
 C:\Users\leonardo\Desktop\projInterKinectFace\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
 C:\Users\leonardo\Desktop\projInterKinectFace\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\InterKinectFace\.Debug\KinectInteraction170_32.dll
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\InterKinectFace\.Debug\KinectInteraction170_64.dll
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\InterKinectFace\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\InterKinectFace\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\leonardo\Desktop\projInterKinectFace\InterKinectFace\obj\Debug\
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\InterKinectFace\obj\Debug\
 InterKinectFace
 none
 false
 
-C:\Users\leonardo\Desktop\projInterKinectFace\InterKinectFace\App.xaml
+C:\Users\leonardo\Desktop\IKF-InterKinectFace\trunk\InterKinectFace\App.xaml
 3625421695
 1289116689
 30-587813520
-281921867153
+28775797776
 Common\StandardStyles.xaml;Configs\KinectWindow.xaml;MainWindow.xaml;
 
-True
+False
 
